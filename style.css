@@ -1,0 +1,129 @@
+/* CSS Document */
+body {
+	background-color:  WhiteSmoke;
+}
+.page {
+	width: 100%;
+	max-width: 976px;
+	margin: auto auto;
+	left: 50%;
+	font-family: arial;
+	font-size: 13px;
+	background: White;
+	border-style: solid;
+	border-color: silver;
+	border-width: 1px;
+	padding: 10px 30px 10px 30px;
+	line-height: 1.5;
+}
+header {
+	padding: 10px 0px 10px 0px;
+}
+section {
+	padding: 20px 0px 0px 0px;
+}
+.logo {
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+	//  width: 100%;
+}
+.banner {
+	display: block;
+	margin-left: 0;
+	margin-right: auto;
+	// width: 100%;
+}
+.centrbanner {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	// width: 100%;
+}
+.row {
+	display: flex;
+	grid-row-gap: 1ch;
+}
+.column {
+	flex: 100%;
+}
+.column:not(:last-child) {
+	margin-right: 20px;
+}
+.hlist {
+	list-style: none;
+	padding-left: 0;
+	background: none;
+	margin: 0 0 0 0;
+	font-size: 14px;
+	padding: 0px 0px 10px 0px;
+}
+.hlist li {
+	display: inline-block;
+}
+.hlist a {
+	display: block;
+	text-decoration: none;
+	margin: 0 0 0 0;
+	transition: color .2s;
+	padding: 0px 30px 0px 0px;
+	color: Gray;
+}
+.hlist a:hover {
+	color: Maroon;
+	//background: WhiteSmoke;
+}
+.menu-main {
+	list-style: none;
+	padding-left: 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: none;
+	margin: 0 0 0 0;
+	padding: 0px 0px 0 0;
+	border-width: 2px;
+	border-style: solid  solid none solid;
+	border-color: DimGray;
+	background: DimGray;
+}
+.menu-main li {
+	display: inline-block;
+}
+.menu-main a {
+	display: block;
+	text-decoration: none;
+	margin: 0 0 0 0;
+	transition: color .2s;
+	padding: 8px 8px 8px 8px;
+}
+.menu-main a, .menu-main a:visited {
+	color: WhiteSmoke;
+}
+.menu-main a:hover {
+	color: WhiteSmoke;
+	background: black;
+}
+.menu-main a.current {
+	color: Black;
+	background: White;
+}
+.footer {
+	//background-color:  WhiteSmoke;
+	padding: 10px 0px 10px 0px;
+	border-style: solid none none none;
+	border-width: 1px;
+}
+.footer ul {
+	list-style: none;
+	padding-left: 0;
+	text-decoration: none;
+}
+.footer ul a {
+	text-decoration: none;
+	line-height: 1.5;
+	color: Gray;
+}
+.footer ul a:hover {
+	color: Maroon;
+	background: WhiteSmoke;
+}
